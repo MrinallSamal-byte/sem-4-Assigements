@@ -23,7 +23,7 @@ public class Q3 {
             g.get(u).add(new E(v, w));
             g.get(v).add(new E(u, w));
         }
-        int src = sc.nextInt();
+        int src = sc.nextInt(); 
 
         int INF = Integer.MAX_VALUE / 4;
         int[] dist = new int[n + 1];
